@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    text-align: justify;
+    text-indent: 15px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A0EA97;
+}
+
+header{
+
+    background-image: linear-gradient( to bottom, #48c934, #2E6B25);
+    min-height: 150px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-align: center;
+    
+}
+
+header > h1 {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.39);
+}
+
+
+header > p {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+    
+}
+
+
+main{
+
+    background-color:white;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 1px 30px 10px 30px;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    background-color: #4A6B46;
+    color: white;
+}
+
+.title{
+    font-size: 12px;
+    font-family: 'idroid';
+    padding: 1px 1px 1px px ;
+    border-radius: 8px 8px 0px 0px;
+    margin: -10px;
+    background-color: #4A6B46;
+    background-image: linear-gradient(2px 2px 2px 2px );
+    color: white;
+
+}
+.versoes{
+    
+    background-color: #A0EA97 ;
+    border-radius: 8px;
+    padding: 0px 10px 10px 10px;
+}
+
+ul{
+    columns: 2;
+    list-style-type: '🤖';
+}
+.titulo{
+    font-family: 'idroid';
+    color: #2E6B25;
+    background-color: #A0EA97;
+    
+}
+
+nav{
+    min-height: 35px;
+    background-color: #2E6B25;
+}
+
+nav> a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    
+}
+
+nav :hover{
+
+    background-color: white;
+    border-radius: 5px;
+    color:  #2E6B25;
+    padding: 8px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
+    
+}
+
+main img{
+
+    width: 100%;
+}
